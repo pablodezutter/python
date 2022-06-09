@@ -16,3 +16,11 @@ name = input()
 
 if (len(name)) > 25:
     print ("Oh my, you have the longest name ever!")
+
+name = "Oklahoma"
+print(name.index("O"))
+print(name.index("homa")) #waar start het in de string?
+name="banaan"
+print(name.replace("a","o"))
+print(name.index("z"))
+
