@@ -1,0 +1,12 @@
+personage = input("Creeër een eerste personage ")
+plaats = input("ZOek een goede plaats waar het verhaal start ")
+personage_2 = input("Iemand van wie je fan bent ")
+
+
+print("Er was eens een " + personage)
+print("die leefde heel heel diep in het/de " + plaats)
+print("Op een niet zo bijzondere dag kwam een " + personage_2 +  " en ")
+
+boodschappen = input("Vul hier de boodschappen in ")
+print( personage_2 + " wilde naar de winkel om " + boodschappen + ". ")
+
