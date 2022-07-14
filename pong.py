@@ -5,7 +5,14 @@ width, height = 700, 500
 win = pygame.display.set_mode((width,height))
 pygame.display.set_caption("PONG")
 
-FPS = 70
+FPS = 60
+
+white = (255,255,255)
+black = (0,0,0)
+
+def draw():
+    win.fill(white)
+pygame.display.update()
 
 def main():
     run = True
